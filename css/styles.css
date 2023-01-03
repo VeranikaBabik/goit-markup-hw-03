@@ -42,6 +42,7 @@ p {
   font-weight: 700;
   color: #000000;
   text-decoration: none;
+  margin-left: 145px;
 }
 .logo-web {
   color: var(--color-mark);
@@ -50,24 +51,47 @@ p {
   background-color: var(--color-background-light);
   height: 80px;
   width: 1600px;
+  border: 1px solid rgba(236, 236, 236, 1);
+  display: flex;
+  align-items: center;
+}
+nav {
+  margin-left: 93px;
+}
+.main-menu {
+  display: flex;
+  gap: 46px;
+  flex-basis: calc((100%-2 * 46px) / 3);
+}
+.contact {
+  margin-left: 371px;
+  display: flex;
+  gap: 50px;
 }
 .motto {
   background-color: var(--color-background-dark);
+  min-height: 600px;
+  width: 1600px;
+}
+h1 {
+  padding: 200px 452px 0 452px;
   color: var(--color-text-light);
+  line-height: 60px;
   text-align: center;
   font-size: 44px;
   font-weight: 900;
-  height: 600px;
-  width: 1600px;
+  margin: 0 auto;
 }
 .button-hw1 {
   background-color: var(--color-mark);
   color: var(--color-text-light);
   font-size: 16px;
   font-weight: 700;
-  line-height: 1, 88;
+  line-height: 30px;
   cursor: pointer;
   border: none;
+  padding: 10px 41px;
+  margin: 30px 700px 200px 700px;
 }
 .what-we-do {
   background-color: var(--color-background-light);
@@ -129,4 +153,7 @@ address {
 .type-of-project {
   font-size: 16px;
   line-height: 1, 88;
+}
+.container {
+  width: 1200px;
 }
