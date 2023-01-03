@@ -54,7 +54,7 @@ p {
   color: var(--color-mark);
 }
 .main-header {
-  background-color: var(--color-background-light);
+  background-color: rgba(255, 255, 255, 1);
   min-height: 80px;
   border: 1px solid rgba(236, 236, 236, 1);
   display: flex;
@@ -152,7 +152,7 @@ h1 {
   line-height: 1.17;
   text-align: center;
   margin: 0;
-  padding: 10px 70px 30px;
+  padding-bottom: 30px;
 }
 .person1,
 .person2,
@@ -181,31 +181,52 @@ address {
   line-height: 1.7;
   padding: 20px 924px 60px 0;
 }
-.main-hw2 {
-  margin-top: 174px;
+.main-portfolio {
+  margin: 94px 0;
 }
-.button-hw2 {
+.button-portfolio {
   background-color: #f5f4fa;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1, 63;
+  line-height: 1.63;
   cursor: pointer;
   border: none;
+  padding: 6px 22px;
+  border-radius: 4px;
 }
-.button-hw2:hover,
-.button-hw2:focus {
+.button-portfolio:hover,
+.button-portfolio:focus {
   background-color: var(--color-mark);
   color: var(--color-text-light);
 }
+.buttons-portfolio {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  gap: 8px;
+}
+.projects {
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .project {
-  background-color: #eeeeee;
+  flex-basis: calc((100%-2 * 30px) 3);
+  border: 1px solid rgba(238, 238, 238, 1);
 }
 .name-of-project {
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
+  padding: 20px 24px 0 24px;
+  margin: 0 auto;
 }
 .type-of-project {
   font-size: 16px;
-  line-height: 1, 88;
+  line-height: 1.88;
+  padding: 4px 24px 20px 24px;
+  margin: 0 auto;
 }
