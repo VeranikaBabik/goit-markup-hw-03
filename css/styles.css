@@ -15,18 +15,18 @@ ul {
 h2 {
   font-size: 36px;
   font-weight: 700;
-  line-height: 1, 17;
+  line-height: 1.17;
   text-align: center;
 }
 h3 {
   color: rgba(33, 33, 33, 1);
   font-size: 14px;
   font-weight: 700;
-  line-height: 1, 17;
+  line-height: 1.17;
 }
 p {
   font-size: 14px;
-  line-height: 1, 7;
+  line-height: 1.7;
   color: rgba(117, 117, 117, 1);
 }
 .container {
@@ -80,7 +80,7 @@ nav {
 h1 {
   padding: 200px 237px 0 237px;
   color: var(--color-text-light);
-  line-height: 60px;
+  line-height: 1.36;
   text-align: center;
   font-size: 44px;
   font-weight: 900;
@@ -91,7 +91,7 @@ h1 {
   color: var(--color-text-light);
   font-size: 16px;
   font-weight: 700;
-  line-height: 30px;
+  line-height: 1.88;
   cursor: pointer;
   border: none;
   padding: 10px 41px;
@@ -142,13 +142,17 @@ h1 {
 .name {
   font-size: 16px;
   font-weight: 500;
-  line-height: 1, 17;
+  line-height: 1.17;
   text-align: center;
+  padding-top: 30px;
+  margin: 0;
 }
 .job {
   font-size: 16px;
-  line-height: 1, 17;
+  line-height: 1.17;
   text-align: center;
+  margin: 0;
+  padding: 10px 70px 30px;
 }
 .person1,
 .person2,
@@ -163,12 +167,19 @@ h1 {
 footer {
   background-color: var(--color-background-dark);
   color: var(--color-text-light);
+  min-height: 252px;
 }
 .logo-studio {
   color: var(--color-text-light);
 }
+.footer-logo {
+  padding: 60px 1240px 0 0;
+}
 address {
   font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  padding: 20px 924px 60px 0;
 }
 .main-hw2 {
   margin-top: 174px;
