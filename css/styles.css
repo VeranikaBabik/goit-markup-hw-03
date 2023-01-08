@@ -76,6 +76,8 @@ nav {
 .motto {
   background-color: var(--color-background-dark);
   min-height: 600px;
+  display: flex;
+  justify-content: flex-start;
 }
 h1 {
   padding: 200px 237px 0 237px;
@@ -84,7 +86,6 @@ h1 {
   text-align: center;
   font-size: 44px;
   font-weight: 900;
-  margin: 0 auto;
 }
 .button-hw1 {
   background-color: var(--color-mark);
@@ -102,9 +103,10 @@ h1 {
 .lorem-ipsum {
   display: flex;
   padding: 94px 0 0;
+  justify-content: flex-start;
 }
-.lorem-ipsum:not(:last-child) {
-  margin: 0 auto;
+.lorem-ipsum:last-child {
+  margin-right: 0;
 }
 .lorem-ipsum li {
   width: 270px;
@@ -122,6 +124,8 @@ h1 {
   padding: 0;
   margin: 0;
   gap: 30px;
+}
+.what-we-do-img li {
   flex-basis: calc((100%-2 * 30px) / 3);
 }
 .team {
@@ -131,13 +135,15 @@ h1 {
 }
 .team-text {
   padding: 94px 480px 50px 480px;
+  justify-content: center;
+  align-items: center;
   margin: 0 auto;
 }
 .persons {
   display: flex;
   gap: 30px;
   padding: 0;
-  margin: 0;
+  justify-content: space-between;
 }
 .name {
   font-size: 16px;
@@ -146,6 +152,8 @@ h1 {
   text-align: center;
   padding-top: 30px;
   margin: 0;
+  justify-content: center;
+  align-items: center;
 }
 .job {
   font-size: 16px;
@@ -153,6 +161,8 @@ h1 {
   text-align: center;
   margin: 0;
   padding-bottom: 30px;
+  justify-content: center;
+  align-items: center;
 }
 .person1,
 .person2,
@@ -160,7 +170,7 @@ h1 {
 .person4 {
   background-color: var(--color-text-light);
   flex-basis: calc((100%-3 * 30px) / 4);
-  margin: 0 0 94px 0;
+  margin-bottom: 94px;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
 }
